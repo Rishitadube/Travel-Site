@@ -13,4 +13,5 @@
 @import "modules/_feature-item";
 @import "modules/_testimonial";
 @import "modules/_site-header";
-@import "modules/_primary-nav"
+@import "modules/_primary-nav";
+@import "modules/_reveal-item";
