@@ -1,11 +1,13 @@
 import '../styles/styles.css'
 import MobileMenu from './Modules/MobileMenu'
 import RevealOnScroll from './Modules/RevealOnScroll'
+import StickyHeader from './Modules/StickyHeader'
 
 if(module.hot){
     module.hot.accept()
 }
 
+let stickyHeader = new StickyHeader()
 new RevealOnScroll(document.querySelectorAll(".feature-item"),75)
 new RevealOnScroll(document.querySelectorAll(".feature-item"),60)
 
